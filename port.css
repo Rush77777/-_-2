@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 12)
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(229, 229, 229);
+    color: aliceblue;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+
+    margin: 0 70px;
+
+}
+
+nav ul li a {
+
+    color: rgb(23, 102, 181);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+
+    color: rgb(18, 18, 20);
+    font-size: 1.3rem;
+
+}
+
+.left {
+    font-size: 1.4rem;
+
+
+}
+/*main section*/
+.firstsection {
+    justify-content: space-around;
+    display: flex;
+    margin: 25px 0;
+    
+}
+
+.leftsection {
+
+    width: 50%;
+    height: 20%;
+    font-size: 2rem;
+    margin: 30px;
+    color: aliceblue;
+
+}
+.leftsection div a{
+    color:aliceblue;
+    margin: 15px;
+    
+     
+}
+
+.leftsection div1 {
+    font-size: 2rem;
+    justify-content: left;
+
+
+}
+
+.leftsection div2 {
+    display: flex;
+    font-size: 2rem;
+
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection img {
+    margin: 50px;
+}
+
+.red:hover {
+    color: rgb(8, 197, 118);
+}
+
+.secondsection {
+
+    margin: 10%;
+    color: aliceblue;
+    font-size: 1.2rem;
+    top: 600px;
+    
+}
+
+.secondsection div {
+
+    text-align: right;
+    position: absolute;
+    top: 750px;
+    left: 800px;
+    display: flex;
+
+    font-size: 1.3rem;
+
+}
+
+.container {
+    display: flex;
+    /* Flexbox layout to place boxes side by side */
+    gap: 15px;
+    /* Space between boxes */
+    padding: 0px 20px;
+}
+
+.box1 {
+    width: 350px;
+    /* Width of the box */
+    height: 350px;
+    /* Height of the box */
+    background-color: rgb(178, 163, 163);
+    /* Green background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* Center the text horizontally */
+    align-items: center;
+    /* Center the text veically */
+    font-size: 19px;
+    border-radius: 10px;
+    margin: 70px;
+}
+.box2 {
+    width: 350px;
+    /* Width of the box */
+    height: 350px;
+    /* Height of the box */
+    background-color:rgb(178, 163, 163);
+    /* Green background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* Center the text horizontally */
+    align-items: center;
+    /* Center the text vertically */
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 70px;
+}
+
+.box3 {
+    width: 350px;
+    /* Width of the box */
+    height: 350px;
+    /* Height of the box */
+    background-color: rgb(178, 163, 163);
+    /* Green background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* Center the text horizontally */
+    align-items: center;
+    /* Center the text vertically */
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 70px;
+
+}
+.thirdsection div{
+    color: aliceblue;
+    margin: 80px;
+    font-size: 1.2rem;
+    justify-content: space-around;
+
+    
+}
+.thirdsection a{
+    color: yellow;
+
+}
+.thirdsection .box1{
+    align-items: center;
+    float: right;
+
+    width: 550px;
+    height: 550px;
+    
+    color: white;
+    
+    top: 1200px;        /* Distance from the top of the page */
+    right: 5px;
+    margin-left:auto;
+    
+    box-shadow: 5px 5px 30px 5px;
+
+   
+    
+}
+.thirdsection .box2{
+    align-items: center;
+    float: right;
+
+    width: 550px;
+    height: 550px;
+    
+    color: white;
+    
+          /* Distance from the top of the page */
+    right: 5px;
+    margin-left:auto;
+    
+    box-shadow: 5px 5px 30px 5px;
+   
+    
+}
+ .date {
+color: aqua;
+    
+    float: right;
+   
+   
+}
+.rishi img{
+    float: left;
+    margin-right: 15px;
+    display: flex;
+  align-items: center; /* Aligns the image and text vertically in the center */
+  gap: 25px;
+  width: 350px; /* Adjust image size */
+  height: auto;
+  
+  
+}
+.last{height: 100%; /* Make sure the body and html take up the full height */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the <h1> */
+    align-items: flex-end;
+align-items: center;
+justify-content: center;
+float:center;
+
+}h1{
+    margin: 20px;
+}
